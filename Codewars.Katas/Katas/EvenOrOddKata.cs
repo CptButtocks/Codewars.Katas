@@ -13,4 +13,17 @@ namespace Codewars.Katas.Katas
             return number % 2 == 0 ? "Even" : "Odd";
         }
     }
+    [TestFixture]
+    public class SolutionTest
+    {
+        [Test]
+        public void ExampleTest()
+        {
+            Assert.AreEqual("Even", EvenOrOddKata.EvenOrOdd(2));
+            Assert.AreEqual("Odd", EvenOrOddKata.EvenOrOdd(1));
+            Assert.AreEqual("Even", EvenOrOddKata.EvenOrOdd(0));
+            Assert.AreEqual("Odd", EvenOrOddKata.EvenOrOdd(7));
+            Assert.AreEqual("Odd", EvenOrOddKata.EvenOrOdd(-1));
+        }
+    }
 }
