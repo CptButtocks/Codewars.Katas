@@ -28,10 +28,10 @@ namespace Codewars.Katas.Katas
     }
 
     [TestFixture]
-    public class Tests
+    public class MultiplesOfThreeAndFiveKataTests
     {
         [Test]
-        public void SampleTests()
+        public void Test()
         {
             Assertion(expected: 23, input: 10);
             Assertion(expected: 78, input: 20);

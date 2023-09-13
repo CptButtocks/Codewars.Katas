@@ -14,10 +14,10 @@ namespace Codewars.Katas.Katas
         }
     }
     [TestFixture]
-    public class SolutionTest
+    public class EvenOrOddKataTests
     {
         [Test]
-        public void ExampleTest()
+        public void Test()
         {
             Assert.AreEqual("Even", EvenOrOddKata.EvenOrOdd(2));
             Assert.AreEqual("Odd", EvenOrOddKata.EvenOrOdd(1));
