@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Codewars.Katas.Katas
 {
-    internal class HumanReadableDataFormatKata
+    public class HumanReadableDataFormatKata
     {
         public static readonly int _secondsInMinute = 60;
         public static readonly int _secondsInHour = 3600;
